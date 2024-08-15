@@ -2,7 +2,7 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+#/vendor
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -14,5 +14,5 @@ yarn-error.log
 /.vscode
 
 # Ini ketika sudah ada di cPanel maka jangan dikomentar. Jika belum ada maka komentari.
-/public/api
+#/public/api
 # /.env
