@@ -6,8 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard.index') }}">
-                        <img src="{{ asset('img/lp3i-logo.svg') }}" alt="Politeknik LP3I Kampus Tasikmalaya"
-                            class="w-40 text-center">
+                        <img src="{{ asset('img/esaunggul-logo.png') }}" alt="Universitas Esa Unggul" class="h-14">
                     </a>
                 </div>
 
