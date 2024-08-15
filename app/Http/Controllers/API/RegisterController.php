@@ -83,11 +83,6 @@ class RegisterController extends Controller
                 $school = $schoolCreate->id;
             }
         }
-        $min = -100000000000000;
-        $max = 100000000000000;
-        $random_number = abs(mt_rand($min, $max));
-        $random_number_as_string = (string) $random_number;
-        $identity_val = str_replace('-', '', $random_number_as_string);
 
         $check_email_applicant = Applicant::where('email', $request->email)->first();
         $check_phone_applicant = Applicant::where('phone', $request->phone)->first();
